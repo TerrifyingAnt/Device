@@ -26,7 +26,7 @@ PRODUCT_PACKAGES += \
   wmiconfig
 
 PRODUCT_PROPERTY_OVERRIDES := \
-  ro.product.first_api_level=25 # переопределение уровня API Android, с которым было выпущено устройство
+  ro.product.first_api_level=10 # переопределение уровня API Android, с которым было выпущено устройство
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
   ro.secure=0 \ #Отключение режима безопасной загрузки

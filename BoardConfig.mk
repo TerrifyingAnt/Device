@@ -17,7 +17,7 @@ TARGET_KERNEL_SOURCE := kernel/mirea/it1 # указывает путь к исх
 TARGET_KERNEL_CONFIG := it_defconfig # указывает имя конфигурационного файла для сборки ядра.
 
 # Partitions
-BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864 # размер образа ядра в байтах
+BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296 # размер образа ядра в байтах
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0 # размер образа рекавери в байтах
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4294967296 # размер образа системы в байтах
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 1294991360 # размер образа для хранения данных пользователя в байтах
